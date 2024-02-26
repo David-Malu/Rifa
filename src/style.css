@@ -1,0 +1,200 @@
+#con {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sombra {
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.772)
+}
+
+#uno {
+  background-color: rgba(0, 0, 0, 0.155);
+  height: 34px;
+}
+
+#fondo {
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+  
+  background-color: #071739;
+}
+
+@keyframes c {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+
+
+
+#boton {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(219, 210, 210, 0.1);
+  font-family: "Poppins", sans-serif;
+  display: inline-flex;
+}
+
+/* boton de compartir */
+
+
+.btn-cssbuttons {
+  position: relative;
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.674);
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+
+#si {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+#titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: #ff0000;
+}
+
+#select {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+
+#letra {
+  font-size: 23px;
+}
+
+
+
+
+
+
+
+
+#botones {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#botones button {
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 4px 4px rgb(0, 0, 0);
+
+
+  height: 40px;
+  flex-basis: calc(10% - 10px);
+  /* 10% del ancho total menos el margen entre botones */
+  margin: 5px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#e {
+  font-size: 17px;
+}
